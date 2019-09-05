@@ -8,14 +8,14 @@ const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 
 console.log('enviroment', process.env.NODE_ENV)
-
+const CONNECTION_URI = process.env.MONGODB_URI || mongodb://localhost/ideabot-dev
 const server = express()
-const PORT = 6969
+const PORT = process.env.PORT || 6969
 // Map global promise - get rid of warning
 mongoose.Promise = global.Promise
 // Connect to mongoose
 mongoose
-	.connect('mongodb://localhost/vidjot-dev', {
+	.connect('mongodb://localhost/ideabot-dev', {
 		useMongoClient: true
 	})
 	.then(() => console.log('MongoDB Connected...'))
