@@ -1,15 +1,29 @@
-# Web API IV Challenge
+# Friend Finder
+An Express- and Node-based application for matching users based on personality. This application was my first experience deploying an  Express application to Heroku.
 
-In this challenge, you will **deploy** an API of your choosing to `heroku`.
+## Getting Started
+To view the site and interact with other users' data,  visit http://frind-findr.herokuapp.com/
+
+## Prerequisites
+- Node.js/NPM
 
 ## Instructions
+To run the site locally and interact with only your own and the example data,
+ - Make sure you have fulfilled the prerequisites above.
+ - Clone this repository with `git clone https://github.com/mchlltt/friend-finder.git` or the ssh equivalent.
+ - Install modules with `npm install`
+ - Run `node server.js`
+ - Go to `localhost:3000` in your web browser.
 
-You are allowed, and **encouraged**, to collaborate with other peers. Please follow the twenty-minute rule, before seeking support from your PM and Instructor.
+## Technologies Used
+- Node.js/NPM (JavaScript environment/Package manager)
+- Express.js (Web framework)
+- Heroku (Cloud platform)
+- Bootstrap (Front-end framework)
+- WebStorm (JavaScript IDE)
 
-## Minimum Viable Product
+## Author
+Mich Elliott - [mchlltt](http://github.com/mchlltt)
 
-Pick any API, could be one of your past projects, and deploy it to `heroku`. Once deployed, send the URL to the TL for your group.
-
-## Stretch Goal
-
-- add support for environment variables using `.env` files. You can use the [dotenv](https://www.npmjs.com/package/dotenv) npm module.
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.

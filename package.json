@@ -1,33 +1,28 @@
 {
-	"name": "web-deployment-and-best-practices",
-	"version": "1.0.0",
-	"description": "App to create video ideas",
-	"main": "App.js",
-	"scripts": {
-		"server": "nodemon app.js",
-		"start": "node app.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/SirAndrewDillon/web-deployment-and-best-practices.git"
-	},
-	"author": "Andrew Dillon",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/SirAndrewDillon/web-deployment-and-best-practices/issues"
-	},
-	"homepage": "https://github.com/SirAndrewDillon/web-deployment-and-best-practices#readme",
-	"dependencies": {
-		"body-parser": "^1.19.0",
-		"connect-flash": "^0.1.1",
-		"dotenv": "^8.1.0",
-		"express": "^4.17.1",
-		"express-handlebars": "^3.1.0",
-		"express-session": "^1.16.2",
-		"method-override": "^3.0.0",
-		"mongoose": "^5.6.12"
-	},
-	"devDependencies": {
-		"nodemon": "^1.19.2"
-	}
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "An Express.js friend-finding application",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchlltt/friend-finder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchlltt/friend-finder/issues"
+  },
+  "homepage": "https://github.com/mchlltt/friend-finder#readme"
 }
